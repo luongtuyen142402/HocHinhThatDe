@@ -140,7 +140,7 @@ export const generateGeometry = async (prompt: string, history: string = "", ima
     throw new Error("API Key is missing");
   }
 
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   
   try {
     const parts: any[] = [{ text: `Lịch sử chat:\n${history}\n\nYêu cầu mới của học sinh: ${prompt}` }];
