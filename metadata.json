@@ -1,0 +1,8 @@
+{
+  "name": "Học Hình Thật Dễ",
+  "description": "Ứng dụng chuyên biệt hỗ trợ học Toán THCS với trợ lý AI bong bóng, hỗ trợ chụp ảnh và dán ảnh trực tiếp.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
